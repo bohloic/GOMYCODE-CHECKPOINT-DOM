@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panier</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+        <div class="container">
+            <div class="header">
+                <h1>Panier</h1>
+            </div>
+            <div class="main">
+                <div class="title-main">
+                    <h4>Nom de l'article</h4>
+                    <h4>Quantité</h4>
+                    <h4>Prix unitaire</h4>
+                    <h4>Sous total</h4>
+                </div>
+                <div class="body-main">
+                    <div class="prod">
+                        <img src="image_1024.png" alt="Photo d'un sac de riz">
+                        <div>
+                            <h5>Sac de riz</h5>
+                            <button class="del">Supprimer</button>
+                        </div>
+                    </div>
+                    <div class="prod">
+                        <button class="moins"> - </button>
+                        <span class="qte">2</span>
+                        <button class="plus"> + </button>
+                    </div>
+                    <div class="prod">
+                        <span class="pu">25000</span>
+                    </div>
+                    <div class="prod">
+                        <span class="sousT">50000</span>
+                    </div>
+                </div>
+                <div class="body-main">
+                    <div class="prod">
+                        <img src="1-19-6.jpg" alt="Photo d'une marmite">
+                        <div>
+                            <h5>Marmite</h5>
+                            <button class="del">Supprimer</button>
+                        </div>
+                    </div>
+                    <div class="prod">
+                        <button class="moins"> - </button>
+                        <span class="qte">4</span>
+                        <button class="plus"> + </button>
+                    </div>
+                    <div class="prod">
+                        <span class="pu">3000</span>
+                    </div>
+                    <div class="prod">
+                        <span class="sousT">12000</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <h2>Total : 
+                    <span class="t-blue">
+                        <span id="total"></span>fr cfa
+                    </span>
+                </h2>                
+                <div class="addPanier mb-4">                      
+                    <button>Ajouter au Panier</button>
+                </div>
+            </div>
+        </div>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
